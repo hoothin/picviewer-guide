@@ -1,0 +1,122 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@300;400;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --vp-font-family-base: 'LXGW WenKai TC', 'Noto Serif SC', 'Source Han Serif SC', serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Cascadia Mono', monospace;
+  --vp-c-brand-1: #d85f2b;
+  --vp-c-brand-2: #f29d38;
+  --vp-c-brand-3: #9a3f1f;
+  --vp-c-bg-soft: #fff5ec;
+  --vp-c-text-1: #27140b;
+  --vp-c-text-2: #5a3c2c;
+  --vp-c-divider: rgba(39, 20, 11, 0.15);
+}
+
+.VPHome {
+  background:
+    radial-gradient(800px 300px at 15% -10%, rgba(216, 95, 43, 0.18), transparent 60%),
+    radial-gradient(900px 360px at 85% 0%, rgba(242, 157, 56, 0.2), transparent 65%),
+    linear-gradient(180deg, #fff7f0 0%, #fffdfa 55%, #ffffff 100%);
+}
+
+.VPHomeHero .name {
+  letter-spacing: 0.04em;
+  text-shadow: 0 6px 24px rgba(216, 95, 43, 0.18);
+}
+
+.VPHomeHero .text {
+  font-weight: 600;
+}
+
+.VPHomeHero .tagline {
+  max-width: 640px;
+}
+
+.VPHomeFeatures {
+  border-top: 1px dashed rgba(39, 20, 11, 0.12);
+}
+
+.VPHomeFeatures .item {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(216, 95, 43, 0.15);
+  box-shadow: 0 12px 30px rgba(39, 20, 11, 0.08);
+  backdrop-filter: blur(6px);
+}
+
+.VPNavBar.has-sidebar .content-body {
+  background: linear-gradient(90deg, rgba(255, 247, 240, 0.96), rgba(255, 255, 255, 0.98));
+}
+
+.VPSidebar {
+  border-right: 1px solid rgba(39, 20, 11, 0.08);
+}
+
+.VPDoc h1 {
+  letter-spacing: 0.02em;
+}
+
+.VPDoc blockquote {
+  background: rgba(242, 157, 56, 0.08);
+  border-left: 4px solid rgba(216, 95, 43, 0.7);
+}
+
+.VPDoc .custom-block.tip {
+  border-color: rgba(216, 95, 43, 0.6);
+}
+
+.VPDoc .custom-block.warning {
+  border-color: rgba(154, 63, 31, 0.7);
+}
+
+:root.dark {
+  --vp-c-brand-1: #ff9a4d;
+  --vp-c-brand-2: #ffbf6b;
+  --vp-c-brand-3: #f07a2c;
+  --vp-c-bg-soft: #1c1410;
+  --vp-c-text-1: #f6e6d9;
+  --vp-c-text-2: #d3b9a7;
+  --vp-c-divider: rgba(246, 230, 217, 0.12);
+  --vp-c-bg: #120b07;
+  --vp-c-bg-alt: #1a110c;
+  --vp-c-bg-elv: #24170f;
+}
+
+html.dark .VPHome {
+  background:
+    radial-gradient(900px 360px at 10% -10%, rgba(255, 154, 77, 0.18), transparent 60%),
+    radial-gradient(1000px 420px at 90% -5%, rgba(255, 191, 107, 0.16), transparent 65%),
+    linear-gradient(180deg, #120b07 0%, #1a110c 55%, #0f0906 100%);
+}
+
+html.dark .VPHomeFeatures .item {
+  background: rgba(18, 11, 7, 0.8);
+  border: 1px solid rgba(255, 154, 77, 0.2);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+html.dark .VPNavBar.has-sidebar .content-body {
+  background: linear-gradient(90deg, rgba(18, 11, 7, 0.96), rgba(26, 17, 12, 0.98));
+}
+
+html.dark .VPSidebar {
+  border-right: 1px solid rgba(246, 230, 217, 0.08);
+}
+
+html.dark .VPDoc blockquote {
+  background: rgba(255, 154, 77, 0.1);
+  border-left: 4px solid rgba(255, 154, 77, 0.7);
+}
+
+html.dark .VPDoc .custom-block.tip {
+  border-color: rgba(255, 154, 77, 0.6);
+}
+
+html.dark .VPDoc .custom-block.warning {
+  border-color: rgba(255, 122, 44, 0.7);
+}
+
+@media (max-width: 640px) {
+  .VPHomeHero .tagline {
+    font-size: 0.98rem;
+  }
+}

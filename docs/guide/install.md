@@ -12,6 +12,18 @@ It is recommended to install a user script manager in your browser:
 - Violentmonkey
 - ScriptCat
 
+### Browser Permissions (for Chrome-based browsers)
+
+Due to security policy updates in Chrome (e.g., Chrome 138+), you may need to enable "Developer Mode" or the "Allow User Scripts" toggle for the script to function correctly:
+
+1. Right-click the Tampermonkey icon and select **"Manage Extension"**.
+   ![](/images/manage_extension.jpg)
+2. Locate and enable the **"Allow User Scripts"** toggle.
+   ![](/images/userscripts_toggle.png)
+3. Alternatively: Navigate to `chrome://extensions` and enable **"Developer Mode"** in the top right corner.
+
+For more details, see the [Tampermonkey FAQ](https://www.tampermonkey.net/faq.php#Q209).
+
 ## Installation
 
 1. Open the script installation page and confirm installation.

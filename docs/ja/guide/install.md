@@ -4,13 +4,25 @@ title: インストールと更新
 
 # インストールと更新
 
-## 前提条件
+## 事前準備
 
 ブラウザにユーザースクリプトマネージャーをインストールすることをお勧めします：
 
 - Tampermonkey
 - Violentmonkey
 - ScriptCat
+
+### ブラウザの権限設定 (Chrome系ブラウザ向け)
+
+Chromeのセキュリティポリシー更新（Chrome 138+など）により、スクリプトを正しく動作させるために「デベロッパーモード」または「ユーザースクリプトの許可」を有効にする必要がある場合があります：
+
+1. Tampermonkeyのアイコンを右クリックし、**「拡張機能を管理」** を選択します。
+   ![](/images/manage_extension.jpg)
+2. **「ユーザースクリプトの許可」** スイッチを探してオンにします。
+   ![](/images/userscripts_toggle.png)
+3. または：`chrome://extensions`にアクセスし、画面右上の **「デベロッパーモード」** をオンにします。
+
+詳細については、[Tampermonkey FAQ](https://www.tampermonkey.net/faq.php#Q209) を参照してください。
 
 ## インストール手順
 

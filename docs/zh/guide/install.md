@@ -12,6 +12,18 @@ title: 安装与更新
 - Violentmonkey
 - ScriptCat
 
+### 浏览器权限设置 (针对 Chrome 浏览器)
+
+由于 Chrome 浏览器的安全策略更新（如 Chrome 138+），您可能需要开启“开发者模式”或“允许用户脚本”开关，脚本才能正常运行：
+
+1. 右键点击 Tampermonkey 图标，选择 **“管理扩展程序”**。
+   ![](/images/manage_extension.jpg)
+2. 找到并开启 **“允许用户脚本”** 开关。
+   ![](/images/userscripts_toggle.png)
+3. 或者：访问 `chrome://extensions`，在页面右上角开启 **“开发者模式”**。
+
+详细说明请参考 [Tampermonkey FAQ](https://www.tampermonkey.net/faq.php#Q209)。
+
 ## 安装步骤
 
 1. 打开脚本安装页并确认安装。

@@ -97,6 +97,7 @@ export default defineConfig({
                 { text: 'What is it?', link: '/guide/what-is' },
                 { text: 'Install & Update', link: '/guide/install' },
                 { text: 'Quick Start', link: '/guide/quickstart' },
+                { text: 'First Run', link: '/guide/first-run' },
                 { text: 'Shortcuts', link: '/guide/shortcuts' }
               ]
             },
@@ -192,6 +193,7 @@ export default defineConfig({
                 { text: '脚本是什么', link: '/zh/guide/what-is' },
                 { text: '安装与更新', link: '/zh/guide/install' },
                 { text: '快速上手', link: '/zh/guide/quickstart' },
+                { text: '首次运行', link: '/zh/guide/first-run' },
                 { text: '快捷键与手势', link: '/zh/guide/shortcuts' }
               ]
             },
@@ -287,6 +289,7 @@ export default defineConfig({
                 { text: '腳本是什麼', link: '/zh-TW/guide/what-is' },
                 { text: '安裝與更新', link: '/zh-TW/guide/install' },
                 { text: '快速上手', link: '/zh-TW/guide/quickstart' },
+                { text: '首次運行', link: '/zh-TW/guide/first-run' },
                 { text: '快捷鍵與手勢', link: '/zh-TW/guide/shortcuts' }
               ]
             },
@@ -382,6 +385,7 @@ export default defineConfig({
                 { text: 'Picviewer CE+とは', link: '/ja/guide/what-is' },
                 { text: 'インストールと更新', link: '/ja/guide/install' },
                 { text: 'クイックスタート', link: '/ja/guide/quickstart' },
+                { text: '初回実行', link: '/ja/guide/first-run' },
                 { text: 'ショートカット', link: '/ja/guide/shortcuts' }
               ]
             },
@@ -477,6 +481,7 @@ export default defineConfig({
                 { text: 'Что это такое?', link: '/ru/guide/what-is' },
                 { text: 'Установка и обновление', link: '/ru/guide/install' },
                 { text: 'Быстрый старт', link: '/ru/guide/quickstart' },
+                { text: 'Первый запуск', link: '/ru/guide/first-run' },
                 { text: 'Горячие клавиши', link: '/ru/guide/shortcuts' }
               ]
             },

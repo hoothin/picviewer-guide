@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=/guide/first-run" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>First Run</title>
+    <script>
+      (function () {
+        var lang = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+        var target = "/guide/first-run";
+
+        if (lang.indexOf("zh-tw") === 0 || lang.indexOf("zh-hk") === 0 || lang.indexOf("zh-mo") === 0) {
+          target = "/zh-TW/guide/first-run";
+        } else if (lang.indexOf("zh") === 0) {
+          target = "/zh/guide/first-run";
+        } else if (lang.indexOf("ja") === 0) {
+          target = "/ja/guide/first-run";
+        } else if (lang.indexOf("ru") === 0) {
+          target = "/ru/guide/first-run";
+        }
+
+        if (location.pathname !== target) {
+          location.replace(target);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>

@@ -32,6 +32,11 @@ features:
     details: PDF addon allows generating PDF albums directly from batch downloads.
 ---
 
+## Support & Community
+
+- Donate: [Ko-fi](https://ko-fi.com/hoothin) / [愛發電](https://afdian.com/@hoothin)
+- Join the community: [Discord](https://discord.com/invite/keqypXC6wD) / [Reddit](https://www.reddit.com/r/PicviewerCE)
+
 ## What Can You Do?
 
 - Hover to preview any image with quick zoom, flip, rotate, and drag.

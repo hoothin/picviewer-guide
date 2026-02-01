@@ -32,6 +32,11 @@ features:
     details: PDFアドオンにより、一括ダウンロードした画像を直接PDFアルバムとして生成可能。
 ---
 
+## 支援とコミュニティ
+
+- 寄付: [Ko-fi](https://ko-fi.com/hoothin) / [愛發電](https://afdian.com/@hoothin)
+- 参加: [Discord](https://discord.com/invite/keqypXC6wD) / [Reddit](https://www.reddit.com/r/PicviewerCE)
+
 ## 何ができる？
 
 - 任意の画像にホバーしてプレビュー。高速ズーム、反転、回転、ドラッグが可能。

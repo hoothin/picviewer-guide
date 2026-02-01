@@ -32,6 +32,11 @@ features:
     details: PDF-аддон позволяет создавать PDF-альбомы прямо из пакетной загрузки.
 ---
 
+## Поддержка и сообщество
+
+- Поддержать: [Ko-fi](https://ko-fi.com/hoothin) / [愛發電](https://afdian.com/@hoothin)
+- Обсуждения: [Discord](https://discord.com/invite/keqypXC6wD) / [Reddit](https://www.reddit.com/r/PicviewerCE)
+
 ## Что вы можете делать?
 
 - Наведите курсор для предпросмотра любого изображения с быстрым зумом и поворотом.

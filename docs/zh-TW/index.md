@@ -32,6 +32,11 @@ features:
     details: PDF 插件可將批量下載直接生成 PDF 電子畫冊。
 ---
 
+## 支援與社群
+
+- 捐贈支持: [Ko-fi](https://ko-fi.com/hoothin) / [愛發電](https://afdian.com/@hoothin)
+- 加入討論: [Discord](https://discord.com/invite/keqypXC6wD) / [Reddit](https://www.reddit.com/r/PicviewerCE)
+
 ## 你能用它做什麼
 
 - 懸停預覽任意圖片，快速放大、翻轉、旋轉與拖拽查看

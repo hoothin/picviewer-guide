@@ -67,8 +67,13 @@ export default defineConfig({
   themeConfig: {
       socialLinks: [
         { icon: 'github', link: 'https://github.com/hoothin/UserScripts/tree/master/Picviewer%20CE%2B' },
-        { icon: 'twitter', link: 'https://twitter.com/intent/follow?screen_name=HoothinDev' }
-      ]
+        { icon: 'twitter', link: 'https://twitter.com/intent/follow?screen_name=HoothinDev' },
+        { icon: 'discord', link: 'https://discord.com/invite/keqypXC6wD' },
+        { icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path fill="currentColor" d="M373 138.6c-25.2 0-46.3-17.5-51.9-41c-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3c12.6-9.7 28.4-15.5 45.5-15.5c41.3 0 74.7 33.4 74.7 74.7c0 29.8-17.4 55.5-42.7 67.5c-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6c34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3M157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1s36.6-9.8 37.8-36.9s-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1s16.9 36.9 37.8 36.9s39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1c-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1c12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4"/></svg>' }, link: 'https://www.reddit.com/r/PicviewerCE' }
+]
+      ,footer: {
+        message: 'Support the project: <a href="https://ko-fi.com/hoothin" target="_blank" rel="noopener noreferrer">Ko-fi</a> ? <a href="https://afdian.com/@hoothin" target="_blank" rel="noopener noreferrer">???</a>'
+      }
   },
   sitemap: {
     hostname: site
@@ -119,6 +124,13 @@ export default defineConfig({
                 { text: 'Internals', link: '/guide/internals' },
                 { text: 'FAQ', link: '/guide/faq' }
               ]
+            },
+            {
+              text: 'Donate',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/rules/': [
@@ -146,6 +158,13 @@ export default defineConfig({
                 { text: 'Examples', link: '/rules/examples' },
                 { text: 'Debugging', link: '/rules/debug' }
               ]
+            },
+            {
+              text: 'Donate',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/addons/': [
@@ -154,6 +173,13 @@ export default defineConfig({
               items: [
                 { text: 'PDF Addon', link: '/addons/pdf-addon' },
                 { text: 'Blank Gallery', link: '/addons/blank-gallery' }
+              ]
+            },
+            {
+              text: 'Donate',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ],
@@ -164,6 +190,13 @@ export default defineConfig({
                 { text: 'Settings', link: '/reference/settings' },
                 { text: 'Defaults', link: '/reference/defaults' },
                 { text: 'Templates', link: '/reference/templates' }
+              ]
+            },
+            {
+              text: 'Donate',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ]
@@ -215,6 +248,13 @@ export default defineConfig({
                 { text: '运行机制与匹配流程', link: '/zh/guide/internals' },
                 { text: '常见问题', link: '/zh/guide/faq' }
               ]
+            },
+            {
+              text: '捐赠支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/zh/rules/': [
@@ -242,6 +282,13 @@ export default defineConfig({
                 { text: '规则示例库', link: '/zh/rules/examples' },
                 { text: '排错与调试', link: '/zh/rules/debug' }
               ]
+            },
+            {
+              text: '捐赠支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/zh/addons/': [
@@ -250,6 +297,13 @@ export default defineConfig({
               items: [
                 { text: 'PDF 插件', link: '/zh/addons/pdf-addon' },
                 { text: '空白画廊页', link: '/zh/addons/blank-gallery' }
+              ]
+            },
+            {
+              text: '捐赠支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ],
@@ -260,6 +314,13 @@ export default defineConfig({
                 { text: '设置项总览', link: '/zh/reference/settings' },
                 { text: '默认值速查', link: '/zh/reference/defaults' },
                 { text: '配置模板', link: '/zh/reference/templates' }
+              ]
+            },
+            {
+              text: '捐赠支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ]
@@ -311,6 +372,13 @@ export default defineConfig({
                 { text: '運行機制與匹配流程', link: '/zh-TW/guide/internals' },
                 { text: '常見問題', link: '/zh-TW/guide/faq' }
               ]
+            },
+            {
+              text: '捐贈支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/zh-TW/rules/': [
@@ -338,6 +406,13 @@ export default defineConfig({
                 { text: '規則示例庫', link: '/zh-TW/rules/examples' },
                 { text: '排錯與調試', link: '/zh-TW/rules/debug' }
               ]
+            },
+            {
+              text: '捐贈支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/zh-TW/addons/': [
@@ -346,6 +421,13 @@ export default defineConfig({
               items: [
                 { text: 'PDF 插件', link: '/zh-TW/addons/pdf-addon' },
                 { text: '空白畫廊頁', link: '/zh-TW/addons/blank-gallery' }
+              ]
+            },
+            {
+              text: '捐贈支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ],
@@ -356,6 +438,13 @@ export default defineConfig({
                 { text: '設置項總覽', link: '/zh-TW/reference/settings' },
                 { text: '默認值速查', link: '/zh-TW/reference/defaults' },
                 { text: '配置模板', link: '/zh-TW/reference/templates' }
+              ]
+            },
+            {
+              text: '捐贈支持',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ]
@@ -407,6 +496,13 @@ export default defineConfig({
                 { text: '動作メカニズム', link: '/ja/guide/internals' },
                 { text: 'よくある質問', link: '/ja/guide/faq' }
               ]
+            },
+            {
+              text: '寄付',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/ja/rules/': [
@@ -434,6 +530,13 @@ export default defineConfig({
                 { text: 'ルール例', link: '/ja/rules/examples' },
                 { text: 'デバッグ', link: '/ja/rules/debug' }
               ]
+            },
+            {
+              text: '寄付',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/ja/addons/': [
@@ -442,6 +545,13 @@ export default defineConfig({
               items: [
                 { text: 'PDFアドオン', link: '/ja/addons/pdf-addon' },
                 { text: '空のギャラリー', link: '/ja/addons/blank-gallery' }
+              ]
+            },
+            {
+              text: '寄付',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ],
@@ -452,6 +562,13 @@ export default defineConfig({
                 { text: '設定一覧', link: '/ja/reference/settings' },
                 { text: 'デフォルト値', link: '/ja/reference/defaults' },
                 { text: '設定テンプレート', link: '/ja/reference/templates' }
+              ]
+            },
+            {
+              text: '寄付',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ]
@@ -503,6 +620,13 @@ export default defineConfig({
                 { text: 'Внутренние механизмы', link: '/ru/guide/internals' },
                 { text: 'Частые вопросы', link: '/ru/guide/faq' }
               ]
+            },
+            {
+              text: 'Поддержать',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/ru/rules/': [
@@ -530,6 +654,13 @@ export default defineConfig({
                 { text: 'Примеры правил', link: '/ru/rules/examples' },
                 { text: 'Отладка', link: '/ru/rules/debug' }
               ]
+            },
+            {
+              text: 'Поддержать',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
+              ]
             }
           ],
           '/ru/addons/': [
@@ -538,6 +669,13 @@ export default defineConfig({
               items: [
                 { text: 'PDF аддон', link: '/ru/addons/pdf-addon' },
                 { text: 'Пустая галерея', link: '/ru/addons/blank-gallery' }
+              ]
+            },
+            {
+              text: 'Поддержать',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ],
@@ -548,6 +686,13 @@ export default defineConfig({
                 { text: 'Настройки', link: '/ru/reference/settings' },
                 { text: 'Значения по умолчанию', link: '/ru/reference/defaults' },
                 { text: 'Шаблоны', link: '/ru/reference/templates' }
+              ]
+            },
+            {
+              text: 'Поддержать',
+              items: [
+                { text: 'Ko-fi', link: 'https://ko-fi.com/hoothin' },
+                { text: '愛發電', link: 'https://afdian.com/@hoothin' }
               ]
             }
           ]
